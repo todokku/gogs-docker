@@ -1,6 +1,6 @@
 # Docker Compose for Gogs
 
-Spin Gogs Git repository on your localhost using Docker.
+Spin up [Gogs Git service](https://gogs.io/) on your localhost using Docker.
 
 ## Start Up
 
