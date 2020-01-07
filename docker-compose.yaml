@@ -6,10 +6,10 @@ services:
       - gogs_mysql:/var/lib/mysql
     container_name: gogs_db
     environment:
-      MYSQL_ROOT_PASSWORD: secret
-      MYSQL_DATABASE: gogs
-      MYSQL_USER: gogs
-      MYSQL_PASSWORD: secret
+      HOSTNAME: q68u8b2buodpme2n.cbetxkdyhwsb.us-east-1.rds.amazonaws.com
+      MYSQL_DATABASE: n54nclld1dlcnely
+      MYSQL_USER: qg9e86d98smwwn3g
+      MYSQL_PASSWORD: tnf972sbcfp3ffqd
     ports:
       - "3306"
   gogs:
